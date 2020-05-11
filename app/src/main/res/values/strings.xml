@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">COVID19 Tracker - India</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="steps_to_prevent">
+        <![CDATA[
+        <b>HANDS</b> Wash them often <br/>
+        <b>ELBOW</b> Cough into it <br/>
+        <b>FACE</b> Don\'t touch it <br/>
+        <b>SPACE</b> Keep safe distance <br/>
+        <b>HOME</b> Stay if you can</string>
+        ]]>
+    </string>
+    <string name="help_stop_coronavirus">Help Stop Coronavirus</string>
+
+
+    <string name="total_case">Total Case</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="recovered">Recovered</string>
+    <string name="zero">0</string>
+    <string name="case_reported">Cases reported</string>
+    <string name="deaths">Deaths</string>
+
+    <string name="preventive_measure_long">
+        <![CDATA[
+<b>1. Wash your hands frequently</b>
+<br/>
+Wash your hand several times a day with Soap. Keep your hands germs free using an alcohol based sanitizer/rub.
+<br/>
+<b>Why?</b> <br/>Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands.
+<br/>
+<b>When?</b><br/>
+a. After blowing your nose, coughing, or sneezing.<br/>
+b. After using bathroom. <br/>
+c. Feeding or stroking your pet. <br/>
+d. Before preparing or eating food
+<br/><br/>
+<b>2. Maintain social distancing</b>
+<br/>
+Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.
+<br/>
+<b>Why?</b> <br/>When someone coughs or sneezes they spray small liquid droplets from their nose or mouth which may contain virus. If you are too close, you can breathe in the droplets, including the COVID-19 virus if the person coughing has the disease.
+
+<br/><br/>
+<b>3. Avoid touching eyes, nose and mouth</b>
+<br/>
+<b>Why?</b><br/> Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and can make you sick.
+
+<br/><br/>
+<b>4. Practice respiratory hygiene</b>
+<br/>
+Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.
+<br/>
+<b>Why?</b><br/> Droplets spread virus. By following good respiratory hygiene you protect the people around you from viruses such as cold, flu and COVID-19.
+
+<br/><br/>
+<b>5. If you have fever, cough and difficulty breathing, seek medical care early</b>
+<br/>
+Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority.
+<br/>
+<b>Why?</b><br/> National and local authorities will have the most up to date information on the situation in your area. Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also protect you and help prevent spread of viruses and other infections.
+<br/><br/>
+<b> Other things to note</b>
+<br/>
+Clean you phones, keyboard, touchscreens, electric switches, doorknobs, desks regularly and even more often during an epidemic.
+<br/><br/>
+<b>Things you should avoid</b><br/>
+a. Avoid shaking hands and hugging.<br/>
+b. Consume, slaughter wild animals.<br/>
+c. Touch healing wounds or squeeze pimples.<br/>
+d. Share dishes, glasses and cooking utensils.<br/>
+e. Share personal items.<br/>
+]]>
+    </string>
+    <string name="advice_for_public_link">https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public</string>
+    <string name="type_statename_here">Type state/UT name here...</string>
+    <string name="cases_as_per_mohfw">Cases As Per MoHFW*</string>
+    <string name="details">Details</string>
+    <string name="treatment_ongoing">Treatment Ongoing</string>
+    <string name="states_ut_infected">States/UT Infected</string>
+    <string name="total_tests_done">Total Tests Done</string>
+    <string name="legend_mohfw">*Confirmed cases as of Ministry Of Health And Family Welfare.</string>
+    <string name="active">Active</string>
+
+
+    <string name="credits_desc">
+        <![CDATA[
+        Server hosted by <a href="https://devrajput.in/"><b>Devendra Rajput</b></a>
+        <br/>For World Covid19 Stats visit <a href="https://www.coronastats.in/">www.coronastats.in</a>
+        <br/><br/>
+        Data by <b>Ministry of Health and Family Welfare, Govt. of India</b>
+        <a href="https://www.mohfw.gov.in/">https://www.mohfw.gov.in/</a>
+        <br/><br/>
+        Animation by <b>LottieFiles</b><br/>
+        a. Wuhan spreading coronavirus by <a href="https://lottiefiles.com/kunio">Tom Doan</a><br/>
+        b. Programming by <a href="https://lottiefiles.com/princealikhan">Ali Khan</a>
+        ]]>
+    </string>
+    <string name="last_updated">Last Updated :</string>
+
+    <string name="about_author">
+          <![CDATA[
+            Check out my git repo <a href="https://github.com/imanshul">Click here</a>
+        ]]>
+    </string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="banner_add_id">ca-app-pub-3234818818410581/1078664569</string>
+    <string name="interstial_add_id">ca-app-pub-3234818818410581/6139419550</string>
+    <string name="rewarded_add_id">ca-app-pub-3234818818410581/5947847862</string>
+    <string name="appUnitId">ca-app-pub-3234818818410581~5512733598</string>
+
+    <string name="contact_form_url">https://forms.gle/Hz5jqYVSkXUNNuGK6</string>
+    <string name="contact_me">Contact Me</string>
+    <string name="states_ut">States/UT</string>
+    <string name="india">India</string>
+    <string name="precautions">Precautions</string>
+    <string name="about">About</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="send_feedback">Send Feedback</string>
+</resources>

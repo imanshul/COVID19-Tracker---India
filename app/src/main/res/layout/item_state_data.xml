@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tvStateName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Himachal Pradesh"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textConfiremed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/confirmed"
+            android:textColor="@color/orange"
+            app:layout_constraintEnd_toStartOf="@id/textRecovered"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvStateName" />
+
+        <TextView
+            android:id="@+id/textRecovered"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/recovered"
+            android:textColor="@color/green"
+            app:layout_constraintEnd_toStartOf="@id/textDeath"
+            app:layout_constraintStart_toEndOf="@id/textConfiremed"
+            app:layout_constraintTop_toTopOf="@id/textConfiremed" />
+
+        <TextView
+            android:id="@+id/textDeath"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/deaths"
+            android:textColor="@color/red"
+            app:layout_constraintEnd_toStartOf="@id/textActive"
+            app:layout_constraintStart_toEndOf="@id/textRecovered"
+            app:layout_constraintTop_toTopOf="@id/textConfiremed" />
+
+        <TextView
+            android:id="@+id/textActive"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/active"
+            android:textColor="@color/colorPrimaryDark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/textDeath"
+            app:layout_constraintTop_toTopOf="@id/textConfiremed" />
+
+        <TextView
+            android:id="@+id/tvConfiremedCount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:textColor="@color/orange"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/tvRecoveredCount"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textRecovered" />
+
+        <TextView
+            android:id="@+id/tvRecoveredCount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/tvtDeathCount"
+            app:layout_constraintStart_toEndOf="@id/tvConfiremedCount"
+            app:layout_constraintTop_toTopOf="@id/tvConfiremedCount" />
+
+        <TextView
+            android:id="@+id/tvtDeathCount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/tvActiveCount"
+            app:layout_constraintStart_toEndOf="@id/tvRecoveredCount"
+            app:layout_constraintTop_toTopOf="@id/tvConfiremedCount" />
+
+        <TextView
+            android:id="@+id/tvActiveCount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tvtDeathCount"
+            app:layout_constraintTop_toTopOf="@id/tvConfiremedCount" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
+

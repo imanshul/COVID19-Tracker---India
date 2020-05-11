@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_india"
+        android:icon="@drawable/india"
+        android:title="@string/india" />
+
+    <item
+        android:id="@+id/nav_world"
+        android:icon="@drawable/mumbai"
+        android:title="@string/states_ut" />
+
+    <item
+        android:id="@+id/nav_precautions"
+        android:icon="@drawable/info"
+        android:title="@string/precautions" />
+
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/about"
+        android:title="@string/about" />
+
+</menu>

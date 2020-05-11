@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    android:id="@+id/cardSubDetails"
+    android:elevation="8dp"
+    app:cardCornerRadius="8dp"
+    app:layout_constraintTop_toBottomOf="@id/cardViewMainStats">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp">
+
+        <TextView
+            android:id="@+id/textDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/details"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textCasesAsPerMohfw"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/cases_as_per_mohfw"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toStartOf="@id/textTreatmentOngoing"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textDetails" />
+
+        <TextView
+            android:id="@+id/textTreatmentOngoing"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/treatment_ongoing"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/textCasesAsPerMohfw"
+            app:layout_constraintTop_toTopOf="@id/textCasesAsPerMohfw" />
+
+        <TextView
+            android:id="@+id/tvCasesAsPerMohfw"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="?android:attr/textColorPrimary"
+            app:layout_constraintEnd_toStartOf="@id/tvTreatmentOngoing"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textCasesAsPerMohfw" />
+
+        <TextView
+            android:id="@+id/tvTreatmentOngoing"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="?android:attr/textColorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tvCasesAsPerMohfw"
+            app:layout_constraintTop_toBottomOf="@id/textCasesAsPerMohfw" />
+
+        <TextView
+            android:id="@+id/textStatesInfected"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/states_ut_infected"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toStartOf="@id/textTestsDone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvCasesAsPerMohfw" />
+
+        <TextView
+            android:id="@+id/textTestsDone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/total_tests_done"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/textStatesInfected"
+            app:layout_constraintTop_toTopOf="@id/textStatesInfected" />
+
+        <TextView
+            android:id="@+id/tvStatesInfected"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="?android:attr/textColorPrimary"
+            app:layout_constraintEnd_toStartOf="@id/tvTestsDone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textStatesInfected" />
+
+        <TextView
+            android:id="@+id/tvTestsDone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="?android:attr/textColorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tvStatesInfected"
+            app:layout_constraintTop_toBottomOf="@id/textStatesInfected" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

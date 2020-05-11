@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference
+        android:defaultValue="default"
+        app:dialogTitle="Select theme"
+        app:title="Choose theme"
+        app:iconSpaceReserved="false"
+        android:entries="@array/genericEntry"
+        android:entryValues="@array/genericValues"
+        android:key="themePref"
+        app:useSimpleSummaryProvider="true"
+        />
+</PreferenceScreen>
