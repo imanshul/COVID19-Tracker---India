@@ -6,10 +6,10 @@ A Covid-19 state wise statistic app to track the pandemic effect on India.
 I have build this app in the hope that this will be the one of the first app to provide the stats information on your finger tips. I have build this app within 16 hours of code. I have used technology like MVVM, DayNight theme, Kotlin, coroutines etc.
 
 ### Screenshots
-![Home - Light](pictures/ss_home.png?raw=true)
-![Home - Dark](pictures/ss_home_dark.png?raw=true)
-![Home - Dark](pictures/ss_splash.png?raw=true)
-![Home - Dark](pictures/ss_state.png?raw=true)
+![Home - Light | small](pictures/ss_home.png?raw=true)
+![Home - Dark  | small](pictures/ss_home_dark.png?raw=true)
+![Home - Dark  | small](pictures/ss_splash.png?raw=true)
+![Home - Dark  | small](pictures/ss_state.png?raw=true)
 
 ### Results
 
