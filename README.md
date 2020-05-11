@@ -10,7 +10,7 @@ I have build this app in the hope that this will be the one of the first app to 
 ![Home - Dark  | small](pictures/ss_home_dark.png?raw=true)
 ![Home - Dark  | small](pictures/ss_splash.png?raw=true)
 ![Home - Dark  | small](pictures/ss_state.png?raw=true)
-
+<img src="pictures/ss_state.png?raw=true" width="20" />
 ### Results
 
 When creating this app I never thought I would have to face such kind of issue. But lesson learnt, now I know that what to do and what not to. This is a sensitive topic and google rejected my app as I was not a govt entitiy or I don't have said permission from my government.
